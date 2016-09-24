@@ -21,7 +21,7 @@ class DepartmentSeeder extends Seeder
             ));
             Admin::create(array(
                 'name' => $faker->name,
-                'password' => bcrypt('bianrystar'),
+                'password' => bcrypt('infinity'),
                 'username' => "admin".$i,
                 'dept_id' => $temp->id
             ));
