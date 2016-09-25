@@ -4,7 +4,7 @@ First make a database
 
 then copy .env.example to .env
 
-Then run : php artisan composer install
+Then run : composer install
 
 and set your database attribute .
 
